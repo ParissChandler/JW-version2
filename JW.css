@@ -1,0 +1,440 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+.clearfix:before,
+.clearfix:after {
+   content: " "; /* 1 */
+   display: table; /* 2 */
+}
+
+.clearfix:after {
+   clear: both;
+}
+body{
+  line-height: 1.5;
+}
+header{
+  border: 1px;
+  height: 0px;
+  width: 100%;
+}
+header>nav>ul>li{
+  list-style: none;
+  text-align: center;
+  float:left;
+  color: #524F4F;
+  margin-left: 100px;
+  }
+  li{
+    font-style: normal;
+  }
+button{
+    margin-left: 90px;
+  }
+.topSec{
+  border: 1px;
+  height: 400px;
+  width: 100%;
+  background: #EAEDED
+}
+.submitOne{
+  float: left;
+}
+.Secondbutton{
+  margin-top: 19px;
+}
+.topSectext{
+  width: 70%;
+}
+.topSectext>img{
+  height:100px;
+  width:30%;
+  margin-left: 180px;
+}
+.topSectitle{
+  margin-top: 40px;
+}
+.topSectext{
+  margin-left: 50px;
+}
+.topSectext>h1{
+  font-size: 30px;
+  color: #524F4F;
+  font-family: normal;
+}
+.topSectext>h2{
+  font-size: 20px;
+  color: #524F4F;
+  font-family: normal;
+}
+.topSectext>h3{
+  color: #524F4F;
+}
+.buttons{
+  float: left;
+  text-align: center;
+}
+.cool{
+  border:1px;
+  height: 49px;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 20px;
+  border-color: #EAEDED;
+  margin-left: 52px;
+  margin-top: 5px;
+}
+.femaleicon{
+  float: right;
+  width: 25%;
+}
+.femaleicon>img{
+  margin-top: -299px;
+  height: 400px;
+  width: 100%;
+}
+.middleSec{
+  border: 1px;
+  height:400px;
+  width: 100%;
+}
+.middleSec>h1{
+  text-align: center;
+  font-style: normal;
+  color: #524F4F;
+  margin-top: 50px;
+}
+hr{
+  display: block;
+  height: 1px;
+  width: 50%;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+  color: #FF411D;
+}
+.middleSectwins{
+  float: left;
+  font-size: 14px;
+  font-family: Arial;
+  text-align: center;
+  color: #524F4F;
+  margin-left: 60px;
+  margin-top: 180px;
+}
+.middleSec>h6{
+  margin-top: 337px;
+  margin-left: 305px;
+  font-style: italic;
+  font-size: 12px;
+  color: #C0C0C0
+}
+.history{
+  border: 1px;
+  width: 100%;
+  background-color: #EAEDED;
+}
+.ourhistory{
+  border: 1px;
+  width: 48%;
+  float: left;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.ourhistory>h1{
+  text-align: left;
+  color: #524F4F;
+}
+.ourhistory>p{
+  color: #524F4F;
+  text-align: left;
+  font-family: Arial;
+}
+.historyphotos{
+  border: 1px;
+  margin-right: 4%;
+  width: 40%;
+  float: right;
+  display: block;
+}
+.historyphotos>img{
+  display: block;
+  width: 85%;
+  height:auto;
+}
+.historyphoto-bottom{
+  margin: 10%;
+}
+.historyphoto-top{
+  margin: 10%;
+}
+.ourhistory,.historyphotos{
+  margin-top: 15px;
+}
+.whoweare{
+  border: 1px;
+  height:800px;
+  width: 100%;
+}
+.whoweare>h1{
+  text-align: center;
+  font-family: Arial;
+  color: #524F4F;
+}
+.PhotoP{
+  border: 1px solid #524F4F;
+  height: 350px;
+  width: 90%;
+  margin-left: 70px;
+}
+.PhotoP>.founder{
+  margin-top: 25px;
+  margin-left: 30px;
+}
+.PhotoP>h2{
+  float: right;
+  display: inline;
+  vertical-align: middle;
+  margin-right: 580px;
+  color: #524F4F;
+}
+.PhotoP>p{
+  border: 1px;
+  height: 266px;
+  width:50%;
+  float: left;
+  margin-left: 338px;
+  margin-top: -272px;
+  font-family: Arial;
+  color: #524F4F;
+}
+.FamSim>h2{
+  border: 1px;
+  height: 30px;
+  width: 40%;
+  float: left;
+  font-family: Arial;
+  font-weight: lighter;
+  color: black;
+  margin-top: 134px;
+  margin-left: 116px;
+  text-align: left;
+  clear: both;
+}
+.FamSims>h2{
+  border: 1px;
+  height: 30px;
+  width: 40%;
+  float: right;
+  font-family: Arial;
+  font-weight: lighter;
+  color: black;
+  text-align: left;
+  margin-top: 132px;
+  margin-right: 3px;
+}
+.FamSim>.paragraph1{
+border: 1px;
+height: 150px;
+width:30%;
+float: left;
+margin-top: 183px;
+margin-left: -539px;
+}
+.FamSims>.paragraph2{
+  border: 1px;
+  height: 150px;
+  width:30%;
+  float: right;
+  margin-top: 0px;
+  margin-right: 136px;
+}
+.SF{
+  border: 1px;
+  height:100px;
+  width: 100%;
+  background-color: #EAEDED;
+}
+.SFheader>h1{
+  float: left;
+  margin-left: 125px;
+  margin-right: 0;
+  margin-top: 30px;
+  font-size: 25px;
+  font-family: Arial;
+  font-weight: lighter;
+  color: white;
+}
+.respond>form{
+border-width: 25px;
+margin-top: 40px;
+margin-left: 50px;
+}
+.receive{
+  border: 1px solid #EAEDED;
+  margin-left: 20px;
+  border-radius: 10px;
+  height: 50px;
+  width: 40%;
+  margin-top: 25px;
+}
+input{
+  font-family: Arial;
+  font-weight: lighter;
+  font-size: 15px;
+}
+.click>button{
+  border-color: #EAEDED;
+  border-radius: 7px;
+  background-color: white;
+  border-width: 2px;
+  height: 46px;
+  width: 12%;
+  float: right;
+  margin-right: 162px;
+  margin-top: -51px;
+}
+footer{
+  clear: both;
+  border: 1px;
+  height: 300px;
+  width: 100%;
+  background-color: grey;
+  margin-top: -16px;
+}
+.copyright>h6{
+  float: left;
+  font-size: 15px;
+  font-family: Arial;
+  font-weight: lighter;
+  margin-left: 30px;
+  color:white;
+  margin-top: 20px;
+}
+.list>nav>ul>a>li{
+  float: right;
+  list-style: none;
+  font-family: Arial;
+  font-weight: lighter;
+  font-size: 15px;
+  color: white;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+div{
+  border: 1px solid white;
+  height: 1px;
+  width: 60%;
+  margin-top: 138px;
+  margin-left:270px;
+  clear: both;
+}
+.list1>nav>ul>a,.list2>nav>ul>a,.list3>nav>ul>a,.list4>nav>ul>a{
+  text-decoration: none;
+}
+.list1{
+  margin-top: 25px;
+}
+.list1>nav>ul>a>li{
+  width: 40%;
+  list-style: none;
+  font-family: Arial;
+  font-weight: lighter;
+  color: white;
+  margin-left: 250px;
+  text-decoration: none;
+  padding: 3px;
+}
+.list2>nav>ul>a>li{
+  list-style: none;
+  font-family: Arial;
+  font-weight: lighter;
+  color: white;
+  margin-top: -76px;
+  margin-left: 370px;
+  padding: 16px;
+}
+.list3>nav>ul>a>li{
+  list-style: none;
+  font-family: Arial;
+  font-weight: lighter;
+  color: white;
+  margin-top: -45px;
+  margin-left: 559px;
+  padding: 3px;
+}
+.F,.N,.C,.IDK{
+  list-style: none;
+  font-family: Arial;
+  font-weight: lighter;
+  color: white;
+  margin-top: -30px;
+  float: right;
+}
+.F{
+  margin-right: 538px;
+  margin-top: -64px;
+}
+.N{
+  margin-right: 461px;
+  margin-top: -64px;
+}
+.C{
+  margin-right: 361px;
+  margin-top: -64px;
+}
+.IDK{
+  margin-right: 291px;
+  margin-top: -64px;
+}
+@media only screen and (max-width:400px){
+  nav{
+    display: none;
+  }
+  .topSectitle{
+    font-size: 5px;
+  }
+  .topSectext{
+    font-size: 8px;
+  }
+  .topSectext>h3{
+    display: none;
+  }
+  .femaleicon>img{
+    display: none;
+  }
+  .buttons{
+    display:none;
+  }
+  .topSectext>img{
+    height: 40px;
+    width: 40%;
+  }
+  .middleSectwins{
+    display: none;
+  }
+  .Photo{
+    float: left;
+  }
+  footer{
+    width:100%;
+  }
+  
+  .whoweare{
+    display: none;
+  }
+  .PhotoP>p{
+    font-size: 20px;
+  }
+
+  .FamSims>h2,p{
+    display: none;
+  }
+
+  .ourhstory>h1,h6,.historyphotos{
+    display: none;
+  }
+}
